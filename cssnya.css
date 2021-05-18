@@ -1,0 +1,23 @@
+body {
+    background-image: url(https://inihilmi.github.io/hero-chemistry.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.tabel {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    font-size: x-small;
+}
+td, th {
+    background-color: gainsboro;
+    border: 5px solid black;
+    text-align: center;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color:#dddddd;
+}
+

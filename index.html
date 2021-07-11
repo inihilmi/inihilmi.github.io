@@ -1,5 +1,14 @@
 <html>
-<title>Hilmi's Page</title>
+<head>
+<script>
+function show(shown, hidden) {
+  document.getElementById(shown).style.display='block';
+  document.getElementById(hidden).style.display='none';
+  return false;
+}
+</script>
+
+    <title>Hilmi's Page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="ico" sizes="16x16" href="https://raw.githubusercontent.com/inihilmi/inihilmi.github.io/main/Rasengan%20Cincin.ico">
@@ -12,10 +21,12 @@
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
+</head>
 <body class="w3-light-grey" style="margin-left: 0%; margin-right: 0%;">
 
     <div class="navbar">
-        <a href="https://inihilmi.github.io/">Home</a>
+      <a href="#" onclick="return show('Page1','Page2');">Home</a>
+      <a href="#" onclick="return show('Page2','Page1');">Photos</a>
         <div class="dropdown">
           <button class="dropbtn">Dropdown 
             <i class="fa fa-caret-down"></i>
@@ -31,10 +42,28 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
                 <a href="https://twitter.com/inihilmi">Twitter</a>
                 <a href="https://wa.me/6285156304511">WhatsApp</a>
               </div>
+              </div>
             </div>
           </div>
         </div> 
       </div>
+
+      <div id="Page2" style="display: none;">
+        <div class="w3-container w3-card w3-white"></div>
+          <img src="https://inihilmi.github.io/fotogaleri/(1).jpg" width="250px" height="250px">
+          <img src="https://inihilmi.github.io/fotogaleri/(2).jpg" width="250px" height="250px">
+          <img src="https://inihilmi.github.io/fotogaleri/(4).jpg" width="250px" height="250px">
+          <img src="https://inihilmi.github.io/fotogaleri/(6).jpg" width="250px" height="250px">
+          <img src="https://inihilmi.github.io/fotogaleri/(7).jpg" width="250px" height="250px">
+          <img src="https://inihilmi.github.io/fotogaleri/(8).jpg" width="250px" height="250px">
+          <img src="https://inihilmi.github.io/fotogaleri/(9).jpg" width="250px" height="250px">
+          <img src="https://inihilmi.github.io/fotogaleri/(10).jpg" width="250px" height="250px">
+          <img src="https://inihilmi.github.io/fotogaleri/(11).jpg" width="250px" height="250px">
+          <img src="https://inihilmi.github.io/fotogaleri/(12).jpg" width="250px" height="250px">
+        </div>
+      </div>
+
+      <div id="Page1">
 
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
@@ -132,53 +161,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p>Saat awal pandemi, kebetulan saya sedang dirawat selama 2 minggu karena tipes dan tidak menyangka bahwa akan terjadi pandemi. Hari demi hari awalnya terasa sangat berat, apalagi saya yang baru kelas 10 dan masih dibayang bayangi dropout. Namun saya tetap berusaha untuk beradaptasi dan menghadapi keadaan maupun kenyataan bahwa kegiatan sekolah dilakukan secara daring. Saya akhirnya berhasil melewati ujian kenaikan kelas dan dapat melanjutkan pelajaran, namun disitulah permasalahan dimulai. Saya cukup terkejut karena banyaknya tugas dan materi yang harus saya selesaikan, belum lagi dengan praktikum dan laporannya hingga akhirnya saya mendapatkan nilai yang sangat mengecewakan di ujian akhir Ganjil. Akhir akhir ini, saya mencoba untuk memaksimalkan pelajaran yang sedang berlangsung dan mulai memperbaiki pelajaran yang lalu.</p>
         </div>
       </div>
-      <div>
-      <div class="w3-container w3-card w3-white">
-          <img src="https://inihilmi.github.io/fotogaleri/(1).jpg" style="width:250px;height:250px>
-      </div>
-      <div class="w3-container w3-card w3-white>
-          <img src="https://inihilmi.github.io/fotogaleri/(2).jpg" style="width:250px;height:250px>
-      </div>
-      <div class="w3-container w3-card w3-white>
-          <img src="https://inihilmi.github.io/fotogaleri/(6).jpg" style="width:250px;height:250px>
-      </div>
-      <div class="w3-container w3-card w3-white>
-          <img src="https://inihilmi.github.io/fotogaleri/(7).jpg" style="width:250px;height:250px>
-      </div>
-      <div class="w3-container w3-card w3-white>
-          <img src="https://inihilmi.github.io/fotogaleri/(8).jpg" style="width:250px;height:250px>
-      </div>
-      <div class="w3-container w3-card w3-white>
-          <img src="https://inihilmi.github.io/fotogaleri/(9).jpg" style="width:250px;height:250px>
-      </div>
-      <div class="w3-container w3-card w3-white>
-          <img src="https://inihilmi.github.io/fotogaleri/(10).jpg" style="width:250px;height:250px>
-      </div>
-      <div class="w3-container w3-card w3-white>
-          <img src="https://inihilmi.github.io/fotogaleri/(11).jpg" style="width:250px;height:250px>
-      </div>
-      <div class="w3-container w3-card w3-white>
-          <img src="https://inihilmi.github.io/fotogaleri/(12).jpg" style="width:250px;height:250px>
-      </div>
-      <div class="w3-container w3-card w3-white>
-          <img src="https://inihilmi.github.io/fotogaleri/(4).jpg" style="width:250px;height:250px>
-      </div>
-      </div>
-      </div>
-    <!-- End Right Column -->
     </div>
-    
-  <!-- End Grid -->
   </div>
-  
-  <!-- End Page Container -->
-</div>
-
-<footer>
-  <p>Author: Hege Refsnes<br>
-  <a href="mailto:hege@example.com"></a></p>
-</footer>
-
 
 </body>
 </html>
